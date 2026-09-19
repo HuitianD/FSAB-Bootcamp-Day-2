@@ -59,6 +59,7 @@ app.post("/api/signups", (req, res) => {
   });
 });
 
-app.listen(8080, () => {
-  console.log("Backend running on port 8080.");
+const PORT = 8080;
+app.listen(PORT, () => {
+  console.log(`Backend running on http://localhost:${PORT}`);
 });
