@@ -62,4 +62,5 @@ app.post("/api/signups", (req, res) => {
 const PORT = 8080;
 app.listen(PORT, () => {
   console.log(`Backend running on http://localhost:${PORT}`);
+  console.log(`See the greeting at http://localhost:${PORT}/api/hello`);
 });
